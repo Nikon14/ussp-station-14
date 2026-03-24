@@ -1,0 +1,8 @@
+﻿#Правила серверов USSP
+
+- type: guideEntry #MRP
+  id: USSPMRPRuleset
+  name: Правила сервера
+  ruleEntry: true
+  priority: 10
+  text: "/ServerInfo/USSP/Guidebook/ServerRules/USSPMRPRuleset.xml"

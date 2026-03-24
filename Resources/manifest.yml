@@ -1,5 +1,5 @@
 ﻿defaultWindowTitle: Space Station 14
-windowIconSet: /Textures/Logo/icon
-splashLogo: /Textures/Logo/logo.png
+windowIconSet: /Textures/Logo/USSPicon # USSP
+splashLogo: /Textures/Logo/logo.png # USSP-to-be-added
 
-# PJB PLEASE
+# yay

@@ -1,0 +1,52 @@
+[net]
+tickrate = 30
+max_connections = 64
+upnp = true
+
+[game]
+hostname = "[RU][MRP]СССП — Кто не работает, тот не ест."
+desc = "Добро пожаловать на сервер «СССП — Кто не работает, тот не ест»! \nВ данный момент сервер находится в стадии активной разработки. Если вы обнаружите какие-либо ошибки или у вас есть предложения, пожалуйста, сообщите об этом нашей команде: \nВ репозитории GitHub проекта; \nИли на нашем Discord-сервере."
+maxplayers = 32
+map_rotation = true
+peaceful_end = false
+lobbyenabled = true
+role_timers = false
+
+[server]
+rules_file = "USSPMRPRuleset"
+
+[rules]
+time = 15
+
+[hub]
+tags = "lang:ru,region:eu_e,rp:med"
+advertise = true
+
+[atmos]
+space_wind = true
+
+[movement]
+mob_pushing = false
+
+[admin]
+see_own_notes = true
+
+[viewport]
+maximum_width = 26
+
+[netres]
+limit = 25.0
+
+[infolinks]
+discord = "https://discord.gg/3gmaYpp76Y"
+github = "https://github.com/Nikon14/ussp-station-14"
+
+[discord]
+# Webhook to send adminhelp messages to.
+ahelp_webhook = "https://discord.com/api/webhooks/1458734098381017157/kUsTnss-WJzUCx2Ott9AWS5F9wOv-DkMRTmFDiUR8LyMpcHoKNozxkX8E6hDj3qFR_Fd"
+
+# Webhook to send round status messages to.
+round_update_webhook = "https://discord.com/api/webhooks/1458734090256650363/rJN0iOhbojX-k1mcSIwDKoqIdTO9yIYmCZBVMXvSqtRb4nYW5BoGr5_SjcQMHCrLu31k"
+
+# Optionally, a role ID to ping when the round has ended.
+round_end_role = "1458734845005140039"
