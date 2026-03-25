@@ -16,7 +16,7 @@
 
 Это не репозиторий wizden. Если вы хотите внести свои изменения на все серверы, создайте PR в репозиторий [space-wizards](https://github.com/space-wizards/space-station-14).
 
-Мы рады принять вклад от любого человека. Заходите в наш (Discord)[https://discord.gg/3gmaYpp76Y], если хотите помочь. У нас есть [список проблем](https://github.com/Nikon14/ussp-station-14/issues), которые нужно решить, и любой может за них взяться. Не бойтесь просить о помощи! Только убедитесь, что ваши изменения и PRы соответствуют [руководству по контрибьюту](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html).
+Мы рады принять вклад от любого человека. Заходите в наш [Discord](https://discord.gg/3gmaYpp76Y), если хотите помочь. У нас есть [список проблем](https://github.com/Nikon14/ussp-station-14/issues), которые нужно решить, и любой может за них взяться. Не бойтесь просить о помощи! Только убедитесь, что ваши изменения и PRы соответствуют [руководству по контрибьюту](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html).
 
 ## ЛИЦЕНЗИЯ
 
