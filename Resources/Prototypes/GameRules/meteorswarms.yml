@@ -103,6 +103,7 @@
     earliestStart: 12
     minimumPlayers: 25
   - type: MeteorSwarm
+    announcementSound: /Audio/Announcements/meteors_start.ogg # Corvax-Announcements
 
 - type: entity
   parent: GameRuleMeteorSwarm

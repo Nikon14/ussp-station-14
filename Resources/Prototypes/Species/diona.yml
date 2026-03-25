@@ -8,7 +8,8 @@
   skinColoration: Hues
   maleFirstNames: NamesDionaFirst
   femaleFirstNames: NamesDionaFirst
-  lastNames: NamesDionaLast
+  maleLastNames: NamesDionaLast # RU-Localization
+  femaleLastNames: NamesDionaLast # RU-Localization
   naming: TheFirstofLast
   sexes:
   - Unsexed

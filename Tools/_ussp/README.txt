@@ -1,0 +1,7 @@
+credit: https://github.com/walksanatora from starlight
+
+Профессиональное оружие кражи кода
+Как пользоваться?
+1. Откройте renametoussp.py
+2. Поменяйте текст на строке 5
+3. Запустите

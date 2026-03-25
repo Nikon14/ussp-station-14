@@ -103,7 +103,9 @@
   - type: StationEvent
     startAnnouncementColor: "#18abf5"
     startAudio:
-      path: /Audio/Announcements/announce.ogg
+      path: /Audio/Corvax/Announcements/flux.ogg # Corvax-Announcements
+      params:
+        volume: -4
     weight: 8
     duration: 35
   - type: AnomalySpawnRule
@@ -119,7 +121,9 @@
   - type: StationEvent
     startAnnouncementColor: "#18abf5"
     startAudio:
-      path: /Audio/Announcements/announce.ogg
+      path: /Audio/Corvax/Announcements/blusp_anomalies.ogg # Corvax-Announcements
+      params:
+        volume: -4
     weight: 8
     duration: 35
   - type: BluespaceArtifactRule
@@ -140,6 +144,8 @@
   parent: BaseGameRule
   components:
   - type: StationEvent
+    startAudio: # Corvax-Announcements
+      path: /Audio/Corvax/Announcements/apc.ogg
     weight: 7
     duration: 1
     minimumPlayers: 15
@@ -413,8 +419,10 @@
     weight: 8
     startAnnouncement: station-event-solar-flare-start-announcement
     endAnnouncement: station-event-solar-flare-end-announcement
-    startAudio:
-      path: /Audio/Announcements/attention.ogg
+    startAudio: # Corvax-Announcements
+      path: /Audio/Corvax/Announcements/comms_blackout.ogg
+      params:
+        volume: -4
     duration: 120
     maxDuration: 240
   - type: SolarFlareRule
