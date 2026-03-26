@@ -1,0 +1,9 @@
+- type: cargoProduct
+  id: DrumKitInstrument
+  icon:
+    sprite: _USSP/Objects/Fun/Instruments/drumkit.rsi
+    state: drumkit
+  product: DrumKitInstrument
+  cost: 1500
+  category: Fun
+  group: market

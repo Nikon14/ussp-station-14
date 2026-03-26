@@ -1,0 +1,31 @@
+# type: entity
+#  id: FullCanisterChemDispenser
+#  name: раздатчик химикатов
+#  suffix: Заполненный, Канистра
+#  parent: ChemDispenserEmpty
+#  components:
+#  - type: ReagentDispenser
+#  - type: EntityTableContainerFill
+#    containers:
+#      storagebase: !type:AllSelector
+#        children:
+#        - id: USSPReagentCanisterAluminium
+#        - id: USSPReagentCanisterCarbon
+#        - id: USSPReagentCanisterChlorine
+#        - id: USSPReagentCanisterCopper
+##        - id: USSPReagentCanisterEthanol
+#        - id: USSPReagentCanisterFluorine
+#        - id: USSPReagentCanisterSugar
+#       - id: USSPReagentCanisterHydrogen
+ #       - id: USSPReagentCanisterIodine
+#        - id: USSPReagentCanisterIron
+#        - id: USSPReagentCanisterLithium
+#        - id: USSPReagentCanisterMercury
+#        - id: USSPReagentCanisterNitrogen
+#        - id: USSPReagentCanisterOxygen
+#        - id: USSPReagentCanisterPhosphorus
+#        - id: USSPReagentCanisterPotassium
+#3        - id: USSPReagentCanisterRadium
+#        - id: USSPReagentCanisterSilicon
+#        - id: USSPReagentCanisterSodium
+#        - id: USSPReagentCanisterSulfur

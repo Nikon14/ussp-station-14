@@ -1,0 +1,42 @@
+- type: entity
+  parent: [ BaseWeaponLauncher, BaseGunWieldable, BaseMajorContraband ]
+  id: WeaponLauncherM81
+  name: M81
+  description: блуп.
+  components:
+  - type: Sprite
+    sprite: _USSP/Objects/Weapons/Guns/Launchers/m81.rsi
+    layers:
+    - state: icon
+      map: [ "enum.GunVisualLayers.Base" ]
+  - type: Clothing
+    sprite: _USSP/Objects/Weapons/Guns/Launchers/m81.rsi
+    slots:
+    - Back
+    - suitStorage
+  - type: Item
+    size: Huge
+  - type: AmmoCounter
+  - type: Gun
+    fireRate: 1
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
+  - type: GunRequiresWield
+  - type: ContainerContainer
+    containers:
+      revolver-ammo: !type:Container
+  - type: RevolverAmmoProvider
+    whitelist:
+      tags:
+      - Grenade30mm
+    proto: Grenade30mmHE
+    capacity: 1
+    chambers: [ True ]
+    ammoSlots: [ null ]
+    soundEject:
+      path: /Audio/Weapons/Guns/MagOut/sfrifle_magout.ogg
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg

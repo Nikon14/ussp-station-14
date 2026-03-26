@@ -1,0 +1,55 @@
+- type: entity
+  id: Finka
+  name: финка НКВД СССП
+  description: Легендарный нож НКВД СССП. Сделан из дорогого и чистого бескара.
+  parent: [BaseKnife, BaseSecurityContraband]
+  components:
+  - type: Tag
+    tags:
+    - CombatKnife
+    - Knife
+  - type: StealTarget
+    stealGroup: FinkaKnife
+  - type: Sprite
+    sprite: _USSP/Objects/Weapons/Melee/finka.rsi
+    state: icon
+  - type: Reflect # Возможность отражать потому что сделан из чистого бескара!!!
+    reflectProb: 0.1
+    spread: 90
+  - type: MeleeWeapon
+    attackRate: 2
+    damage:
+      types:
+        Piercing: 5
+        Slash: 12
+  - type: Item
+    sprite: _USSP/Objects/Weapons/Melee/finka.rsi
+    state: icon
+  - type: EmbeddableProjectile
+    sound: /Audio/Weapons/star_hit.ogg
+    offset: -0.15,0.0
+  - type: LandAtCursor
+  - type: DamageOtherOnHit
+    ignoreResistances: true
+    damage:
+      types:
+        Piercing: 15
+  - type: ThrowingAngle
+    angle: 225
+  - type: StaticPrice
+    price: 4000
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape: !type:PolygonShape
+          radius: 0.01
+          vertices:
+          - -0.475,-0.225
+          - -0.225,-0.475
+          - 0.525,0.275
+          - 0.275,0.525
+        density: 20 # derived from base_item
+        mask:
+        - ItemMask
+        restitution: 0.3
+        friction: 0.2

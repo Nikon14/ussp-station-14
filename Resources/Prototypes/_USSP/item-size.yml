@@ -1,0 +1,6 @@
+- type: itemSize
+  id: BigReagentCanister 
+  weight: 32
+  name: item-component-size-Ginormous
+  defaultShape:
+  - 0,0,1,1

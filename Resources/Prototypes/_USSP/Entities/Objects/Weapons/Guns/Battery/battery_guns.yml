@@ -1,0 +1,79 @@
+- type: entity
+  name: бластер
+  parent: BaseWeaponBattery
+  id: Blaster
+  description: Продвинутое универсальное оружие, стреляет раскалёнными энергетическими сгустками.
+  components:
+  - type: Item
+    size: Large
+  - type: Tag
+    tags:
+      - Taser
+      - Sidearm
+  - type: Sprite
+    sprite: _USSP/Objects/Weapons/Guns/Battery/blaster.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-0
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Gun
+    selectedMode: FullAuto
+    minAngle: 2
+    maxAngle: 16
+    fireRate: 4.5
+    angleIncrease: 3
+    angleDecay: 16
+    availableModes:
+      - SemiAuto
+      - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/ship_svalinn.ogg
+  - type: BatteryAmmoProvider
+    proto: BulletBlaster
+    fireCost: 33
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 360
+
+- type: entity
+  name: тяжёлый бластер
+  parent: [BaseWeaponBattery, BaseGunWieldable]
+  id: HeavyBlaster
+  description: Усиленная версия обычного бластера, испепеляет врагов своими выстрелами.
+  components:
+  - type: Item
+    size: Large
+  - type: Sprite
+    sprite: _USSP/Objects/Weapons/Guns/Battery/heavyblaster.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-0
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Gun
+    selectedMode: FullAuto
+    fireRate: 3
+    availableModes:
+      - SemiAuto
+      - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/ship_perforator.ogg
+      params:
+        volume: 2.25
+  - type: BatteryAmmoProvider
+    proto: BulletHeavyBlaster
+    fireCost: 50
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 360

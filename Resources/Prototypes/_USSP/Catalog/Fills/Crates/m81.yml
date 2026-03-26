@@ -1,0 +1,17 @@
+
+- type: entity
+  parent: CrateGenericSteel
+  id: CrateWeaponLauncherM81
+  name: набор гранатомётчика
+  suffix: M81
+  description: Содержит старый, добрый гранатомёт и боеприпасы к нему.
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:AllSelector
+        children:
+        - id: WeaponLauncherM81
+        - id: Grenade30mmHE
+          amount: 3
+        - id: Grenade30mmFrag
+          amount: 3
