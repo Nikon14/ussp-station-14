@@ -37,4 +37,12 @@ maximum_width = 26
 [netres]
 limit = 25.0
 
-#Вебхуки, апи бота сюда не вводить!!!
+[discord]
+# Webhook to send adminhelp messages to.
+ahelp_webhook = "" #секрет
+
+# Webhook to send round status messages to.
+round_update_webhook = "" #секрет
+
+# Optionally, a role ID to ping when the round has ended.
+round_end_role = "" #секрет
