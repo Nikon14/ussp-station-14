@@ -1,0 +1,188 @@
+﻿- type: entity
+  id: SpawnERTLeaderEVAPreset
+  name: ERT leader
+  suffix: EVA
+  parent: MarkerBase
+  components:
+    - type: GhostRole
+      name: callert-leader-eva-name
+      description: callert-leader-eva-desc
+      rules: callert-leader-eva-rules
+      raffle:
+        settings: short
+    - type: GhostRoleMobSpawner
+      prototype: ERTLeaderEVAPreset
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertleadereva
+
+- type: entity
+  id: SpawnERTMedicEVAPreset
+  name: ERT medic
+  suffix: EVA
+  parent: MarkerBase
+  components:
+    - type: GhostRole
+      name: callert-medic-eva-name
+      description: callert-medic-eva-desc
+      rules: callert-medic-eva-rules
+      raffle:
+        settings: short
+    - type: GhostRoleMobSpawner
+      prototype: ERTMedicEVAPreset
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertmedicaleva
+
+- type: entity
+  id: SpawnERTSecurityEVAPreset
+  name: ERT security
+  suffix: EVA
+  parent: MarkerBase
+  components:
+    - type: GhostRole
+      name: callert-security-eva-name
+      description: callert-security-eva-desc
+      rules: callert-security-eva-rules
+      raffle:
+        settings: short
+    - type: GhostRoleMobSpawner
+      prototype: ERTSecurityEVAPreset
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertsecurityeva
+
+- type: entity
+  id: SpawnERTEngineerEVAPreset
+  name: ERT engineer
+  suffix: EVA
+  parent: MarkerBase
+  components:
+    - type: GhostRole
+      name: callert-engineer-eva-name
+      description: callert-engineer-eva-desc
+      rules: callert-engineer-eva-rules
+      raffle:
+        settings: short
+    - type: GhostRoleMobSpawner
+      prototype: ERTEngineerEVAPreset
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertengineereva
+
+- type: entity
+  id: SpawnERTJanitorEVAPreset
+  name: ERT janitor
+  suffix: EVA
+  parent: MarkerBase
+  components:
+    - type: GhostRole
+      name: callert-janitor-eva-name
+      description: callert-janitor-eva-desc
+      rules: callert-janitor-eva-rules
+      raffle:
+        settings: short
+    - type: GhostRoleMobSpawner
+      prototype: ERTJanitorEVAPreset
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Markers/jobs.rsi
+          state: ertjanitoreva
+
+- type: entity
+  id: SpawnCBURNLeaderEVAPreset
+  name: CBURN Leader
+  suffix: EVA
+  parent: MarkerBase
+  components:
+    - type: GhostRole
+      name: callert-cburn-leader-eva-name
+      description: callert-cburn-leader-eva-desc
+      rules: callert-cburn-leader-eva-rules
+      raffle:
+        settings: short
+    - type: GhostRoleMobSpawner
+      prototype: CBURNLeaderEVAPreset
+    - type: Sprite
+      sprite: _USSP/Markers/Jobs/callert.rsi
+      layers:
+        - state: green
+        - sprite: _USSP/Markers/Jobs/callert.rsi
+          state: cburn
+
+- type: entity
+  id: SpawnCBURNSecurityEVAPreset
+  name: CBURN security
+  parent: MarkerBase
+  suffix: EVA
+  components:
+    - type: GhostRole
+      name: callert-cburn-security-eva-name
+      description: callert-cburn-security-eva-desc
+      rules: callert-cburn-security-eva-rules
+      raffle:
+        settings: short
+    - type: GhostRoleMobSpawner
+      prototype: CBURNSecurityEVAPreset
+    - type: Sprite
+      sprite: _USSP/Markers/Jobs/callert.rsi
+      layers:
+        - state: green
+        - sprite: _USSP/Markers/Jobs/callert.rsi
+          state: cburn
+
+- type: entity
+  id: SpawnCBURNMedicEVAPreset
+  name: CBURN medic
+  suffix: EVA
+  parent: MarkerBase
+  components:
+    - type: GhostRole
+      name: callert-cburn-medic-eva-name
+      description: callert-cburn-medic-eva-desc
+      rules: callert-cburn-medic-eva-rules
+      raffle:
+        settings: short
+    - type: GhostRoleMobSpawner
+      prototype: CBURNMedicEVAPreset
+    - type: Sprite
+      sprite: _USSP/Markers/Jobs/callert.rsi
+      layers:
+        - state: green
+        - sprite: _USSP/Markers/Jobs/callert.rsi
+          state: cburn
+
+- type: entity
+  id: SpawnDeathSquadEVAPreset
+  name: Death Squad
+  suffix: EVA
+  parent: MarkerBase
+  components:
+    - type: GhostRole
+      name: callert-deathsquad-eva-name
+      description: callert-deathsquad-eva-desc
+      rules: callert-deathsquad-eva-rules
+      raffle:
+        settings: short
+    - type: GhostRoleMobSpawner
+      prototype: DeathSquadEVAPreset
+    - type: Sprite
+      sprite: _USSP/Markers/Jobs/callert.rsi
+      layers:
+        - state: green
+        - sprite: _USSP/Markers/Jobs/callert.rsi
+          state: deathsquad

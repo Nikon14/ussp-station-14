@@ -1,0 +1,44 @@
+- type: entity
+  parent: MobHuman
+  id: DeathSquadEVAPreset
+  name: Death Squad Agent
+  components:
+    - type: RandomMetadata
+      nameSegments:
+       - NamesLast
+    - type: Sprite
+      netsync: false
+      sprite: _USSP/Markers/Jobs/callert.rsi
+      state: deathSquad
+    - type: Loadout
+      prototypes: [ DeathSquadGear ]
+    - type: AutoImplant
+      implants:
+      - FreedomImplant
+      - EmpImplant
+      - MindShieldImplant
+    - type: NpcFactionMember
+      factions:
+      - DeathSquad
+    - type: GhostRole
+      name: callert-deathsquad-eva-name
+      description: callert-deathsquad-eva-desc
+      rules: callert-deathsquad-eva-rules
+      raffle:
+        settings: short
+    - type: GhostTakeoverAvailable
+
+- type: npcFaction # Новая фракция для ЭС
+  id: DeathSquad
+  hostile:
+  - NanoTrasen
+  - RiotControlUnit
+  - Syndicate
+  - Passive
+  - PetsNT
+  - Zombie
+  - Revolutionary
+  - Dragon
+  - SimpleHostile
+  - SyndicateAgent
+  - Wizard 

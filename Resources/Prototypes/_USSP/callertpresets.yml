@@ -1,0 +1,13 @@
+- type: CallErt
+  id: ERT
+  path: "Maps/Shuttles/dart.yml"
+  desc: "Шаттл ОБР"
+
+#- type: CallErt
+#  id: CBURN
+#  path: "Maps/Corvax/Shuttles/cburn_corvaxcentcomm.yml"
+#  desc: "Шаттл РХБЗЗ"
+
+#TODO:
+#ремап шаттлов
+#добавить шаттл эс

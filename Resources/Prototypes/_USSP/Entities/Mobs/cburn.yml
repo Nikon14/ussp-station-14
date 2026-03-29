@@ -1,0 +1,86 @@
+- type: entity
+  parent: MobHuman
+  id: CBURNLeaderEVAPreset
+  name: CBURN Agent
+  components:
+    - type: RandomMetadata
+      nameSegments:
+      - NamesMilitaryFirstLeader
+      - NamesLast
+      nameFormat: name-format-standard
+    - type: Sprite
+      netsync: false
+      sprite: _USSP/Markers/Jobs/callert.rsi
+      state: cburnleader
+    - type: Loadout
+      prototypes: [ CBURNGear ]
+    - type: RandomHumanoidAppearance
+      randomizeName: false
+    - type: AutoImplant
+      implants:
+      - MindShieldImplant
+    - type: GhostTakeoverAvailable
+    - type: GhostRole
+      name: callert-cburn-leader-eva-name
+      description: callert-cburn-leader-eva-desc
+      rules: callert-cburn-leader-eva-rules
+      raffle:
+        settings: short
+
+- type: entity
+  parent: MobHuman
+  id: CBURNSecurityEVAPreset
+  name: CBURN Agent
+  components:
+    - type: RandomMetadata
+      nameSegments:
+      - NamesMilitaryFirst
+      - NamesLast
+      nameFormat: name-format-standard
+    - type: Sprite
+      netsync: false
+      sprite: _USSP/Markers/Jobs/callert.rsi
+      state: cburn
+    - type: Loadout
+      prototypes: [ CBURNGear ]
+    - type: RandomHumanoidAppearance
+      randomizeName: false
+    - type: AutoImplant
+      implants:
+      - MindShieldImplant
+    - type: GhostTakeoverAvailable
+    - type: GhostRole
+      name: callert-cburn-security-eva-name
+      description: callert-cburn-security-eva-desc
+      rules: callert-cburn-security-eva-rules
+      raffle:
+        settings: short
+
+- type: entity
+  parent: MobHuman
+  id: CBURNMedicEVAPreset
+  name: CBURN Agent
+  components:
+    - type: RandomMetadata
+      nameSegments:
+      - NamesMilitaryFirst
+      - NamesLast
+      nameFormat: name-format-standard
+    - type: Sprite
+      netsync: false
+      sprite: _USSP/Markers/Jobs/callert.rsi
+      state: cburnMedic
+    - type: Loadout
+      prototypes: [ CBURNGear ]
+    - type: RandomHumanoidAppearance
+      randomizeName: false
+    - type: AutoImplant
+      implants:
+      - MindShieldImplant
+    - type: GhostTakeoverAvailable
+    - type: GhostRole
+      name: callert-cburn-medic-eva-name
+      description: callert-cburn-medic-eva-desc
+      rules: callert-cburn-medic-eva-rules
+      raffle:
+        settings: short

@@ -309,3 +309,4 @@ Resources/MapImages
 
 # Direnv stuff
 .direnv/
+Tools/_ussp/renametoussp.py
