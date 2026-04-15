@@ -1,0 +1,19 @@
+- type: entity
+  parent: BaseMedicalPDA
+  id: RoboticistPDA
+  name: roboticist's PDA
+  description: It's covered in something sticky.
+  components:
+  - type: Pda
+    id: RoboticistIDCard
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-roboticist
+  - type: PdaBorderColor
+    borderColor: "#363636"
+    accentVColor: "#8b1500"
+    accentHColor: "#7a2699" #респрайт нужен?
+  - type: Icon
+    state: pda-roboticist
