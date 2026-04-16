@@ -1,4 +1,6 @@
-  files: [no_ert.ogg, yesert.ogg]
-  license: "CC-BY-SA-3.0"
-  copyright: 'github: BasiaBelov, github co-author: notkripton. Taken from: TauCetiStation'
-  source: "https://github.com/TauCetiStation/TauCetiClassic/commit/92d2767dbb39f28540f78d5055e7be1eb7acee98"
+files:
+  - no_ert.ogg
+  - yesert.ogg
+license: CC-BY-SA-3.0
+copyright: "github: BasiaBelov, github co-author: notkripton. Taken from: TauCetiStation"
+source: https://github.com/TauCetiStation/TauCetiClassic/commit/92d2767dbb39f28540f78d5055e7be1eb7acee98
