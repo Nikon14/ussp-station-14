@@ -2,6 +2,7 @@
   parent: ResearchIDCard
   id: RoboticistIDCard
   name: ID карта робототехника
+  description
   components:
   - type: Sprite
     layers:

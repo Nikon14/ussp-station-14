@@ -1,0 +1,15 @@
+ent-ERTLeaderEVAPreset = лидер ОБР
+    .suffix = EVA, GhostRole
+    .desc = { ent-MobHuman.desc }
+ent-ERTMedicEVAPreset = медик ОБР
+    .suffix = EVA, GhostRole
+    .desc = { ent-MobHuman.desc }
+ent-ERTSecurityEVAPreset = боец ОБР
+    .suffix = EVA, GhostRole
+    .desc = { ent-MobHuman.desc }
+ent-ERTEngineerEVAPreset = инженер ОБР
+    .suffix = EVA, GhostRole
+    .desc = { ent-MobHuman.desc }
+ent-ERTJanitorEVAPreset = уборщик ОБР
+    .suffix = EVA, GhostRole
+    .desc = { ent-MobHuman.desc }
